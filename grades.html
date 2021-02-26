@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="formstyle.css" type="text/css" rel="stylesheet" />
+<title>Retrieve Grade</title>
+</head>
+<body>
+	<h1>Retrieve your Grade</h1>
+	<form>
+		<p>Name:</p>
+		<input type="text" name="studentName" />
+		<p>Student ID:</p>
+		<input type="text" name="studentId" />
+
+		<div>
+			<p>
+				<label for="assignments">Assignment:</label>
+			</p>
+			<select id="assignments" name="assignment">
+				<option value="home">My Home Page</option>
+				<option value="aboutMe">About Me</option>
+				<option value="pie">Pie Recipe</option>
+				<option value="movie">Moview Review</option>
+			</select>
+		</div>
+		<div>
+			<p>
+				Entry: <label id="august"> <input type="radio" name="entry"
+					value="checked" required />August
+				</label> <label id="november"> <input type="radio" name="entry"
+					value="november" />November
+				</label>
+			</p>
+		</div>
+		<p>
+			<input type="checkbox" id="validate" name="validate"><label
+				for="validate">Hereby, I guarantee I'm only seeing my own
+				grades.</label>
+		</p>
+		<input type="submit" value="Get grade" name="get" />
+	</form>
+</body>
+</html>
