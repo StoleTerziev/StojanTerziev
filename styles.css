@@ -43,8 +43,9 @@ a {
 	color: red;
 }
 
+
 label {
-	cursor:default;
+	font-weight: bold;
 	position: absolute;
 	width: 150px;
 	left: 0;
