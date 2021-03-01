@@ -1,64 +1,80 @@
 body {
-	width: 500px;
-	margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.back {
-	vertical-align: center;
+.container {
+    width: 500px;
+    margin: auto;
 }
 
-.back img {
-	float: left;
-	width: 20px;
-	height: 20px;
+form {
+    background-color: #e0e0ff;
+    padding: 15px 5px 5px 5px;
+    position: relative;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: solid 2px;
+    border-color: #d4d3d3  #7d7c7c #7d7c7c #d4d3d3;
 }
 
-div {
-	margin: 20px;
-	position: relative;
+.form_title {
+    position: absolute;
+    background-color: white;
+    top: -22px;
+    padding: 3px;
+    border: solid 2px;
+    border-color: #d4d3d3  #7d7c7c #7d7c7c #d4d3d3;
+
 }
 
-fieldset {
-	background-color: #CBC3E3;
-	border-radius: 20px;
-	box-shadow: 3px 3px gray;
-	border: 0;
+input[type="text" i] {
+    border-color: #d4d4d4;
 }
 
-fieldset legend {
-	background-color: white;
-	border: solid 1px black;
-	box-shadow: 3px 3px gray;
+.input_head {
+    font-weight: bold;
+    float: left;
+    width: 20ch;
 }
 
-input[type=submit] {
-	background-color: #FE9177;
-	margin-left: 0px;
+.input_16ch_long {
+    width: 16ch;
+}
+.input_6ch_long {
+    width: 6ch;
 }
 
-
+.input_submit {
+    background-color: #f4a9aa;
+    font-size: large;
+    font-weight: bold;
+    border-color: blanchedalmond;
+}
 
 a {
-	text-decoration: none;
-	color: red;
+    color: #f35557;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+form > div {
+    margin: 5px;
 }
 
 
-label {
-	font-weight: bold;
-	position: absolute;
-	width: 150px;
-	left: 0;
+#back_button {
+    width: 30px;
+    float: left;
 }
 
-input {
-	margin-left: 140px;
+.go_back_section {
+    display: flex;
+    align-items: center;
 }
 
-select {
-	margin-left: 140px;
-}
 
-.right {
-	margin-left: 0;
+.validators {
+    margin-top: 40px;
 }
