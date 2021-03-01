@@ -15,10 +15,12 @@
 					name="name" size="16" />
 			</div>
 			<div>
-				<label>Gender:</label> <input type="radio" name="gender"
-					value="male" />Male <input class="right" type="radio"
-					name="gender" value="female" checked="checked" />Female
-			</div>
+                <label class="input_head" for="gender">Gender:</label>
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Female</label>
+            </div>
 			<div>
 				<label>Age:</label> <input type="text" name="age" size="6"
 					maxlength="2" />
